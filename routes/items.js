@@ -12,7 +12,7 @@ var USE_FASTCACHE = false;
 
 exports.loadTest = function(req, res) {
     res.json({"success": 0, "fail": 0, "time": 0});
-/*
+
     var testCount = req.query.count;
     testCount = testCount ? parseInt(testCount) : 100;
 
@@ -40,7 +40,7 @@ exports.loadTest = function(req, res) {
             path: "/items/" + (i % 2 ? itemId1 : itemId2)
 	}, callback);
     }
-*/
+
 };
 
 
